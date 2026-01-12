@@ -7,7 +7,8 @@ This project documents the design of a production-style Google Cloud architectur
 The focus of this project is **cloud architecture decision-making**, not application feature completeness. It demonstrates how requirements translate into infrastructure choices, tradeoffs, and deployment strategy on Google Cloud.
 
 ## Architecture
-![Architecture Diagram](docs/architecture-diagram.png)
+<img width="704" height="463" alt="image" src="https://github.com/user-attachments/assets/864c69dc-66f7-4774-93b7-2bddc3695807" />
+
 
 **High-level flow:**
 Users → HTTPS Load Balancer → Cloud Run (Event API) → Cloud SQL (MySQL)
